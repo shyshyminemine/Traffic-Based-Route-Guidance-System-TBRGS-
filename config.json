@@ -1,0 +1,11 @@
+{
+    "default_origin": "0970",
+    "default_destination": "4821",
+    "speed_kmh": 60,
+    "intersection_delay_seconds": 30,
+    "default_ml_model": "GRU",
+    "available_models": ["LSTM", "GRU", "Random Forest"],
+    "top_k": 5,
+    "window_size": 4,
+    "data_file": "data/Scats Data October 2006.xls"
+}
